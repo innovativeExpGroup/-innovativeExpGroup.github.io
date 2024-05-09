@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap 3.4按钮下拉菜单</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">创新实验学习</a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav">
+          
+            <li class="active"><a href="/" >主页</a></li>
+          
+            <li class="active"><a href="/blog.html" >博客</a></li>
+          
+            <li class="active"><a href="/staff.html" >员工</a></li>
+          
+            <li class="active"><a href="/about.html" >关于</a></li>
+          
+        </ul>
+    </div>
+    </div>
+</nav>
+    <h1>Bootstrap 3.4按钮下拉菜单</h1>
+
+<p>
+  09 May 2024
+  
+  
+    - <a href="/authors/k.html">kxy</a>
+  
+</p>
+
+<h1 id="实例">实例</h1>
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">默认
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">功能</a>
+        </li>
+        <li>
+            <a href="#">另一个功能</a>
+        </li>
+        <li>
+            <a href="#">其他</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+            <a href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">原始
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">功能</a>
+        </li>
+        <li>
+            <a href="#">另一个功能</a>
+        </li>
+        <li>
+            <a href="#">其他</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+            <a href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+
+<h1 id="分割的按钮下拉菜单">分割的按钮下拉菜单</h1>
+<div class="btn-group">
+    <button type="button" class="btn btn-default">默认</button>
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+        <span class="sr-only">切换下拉菜单</span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">功能</a></li>
+        <li><a href="#">另一个功能</a></li>
+        <li><a href="#">其他</a></li>
+        <li class="divider"></li>
+        <li><a href="#">分离的链接</a></li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">原始</button>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+        <span class="sr-only">切换下拉菜单</span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a href="#">功能</a></li>
+        <li><a href="#">另一个功能</a></li>
+        <li><a href="#">其他</a></li>
+        <li class="divider"></li>
+        <li><a href="#">分离的链接</a></li>
+    </ul>
+</div>
+
+<h1 id="按钮下拉菜单的大小">按钮下拉菜单的大小</h1>
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">默认
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">功能</a>
+        </li>
+        <li>
+            <a href="#">另一个功能</a>
+        </li>
+        <li>
+            <a href="#">其他</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+            <a href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown">原始
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">功能</a>
+        </li>
+        <li>
+            <a href="#">另一个功能</a>
+        </li>
+        <li>
+            <a href="#">其他</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+            <a href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button type="button" class="btn btn-success dropdown-toggle btn-xs" data-toggle="dropdown">成功
+        <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">功能</a>
+        </li>
+        <li>
+            <a href="#">另一个功能</a>
+        </li>
+        <li>
+            <a href="#">其他</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+            <a href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+
+<h1 id="按钮上拉菜单">按钮上拉菜单</h1>
+<div class="row" style="margin-left:50px; margin-top:200px">
+    <div class="btn-group dropup">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">默认
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <a href="#">功能</a>
+            </li>
+            <li>
+                <a href="#">另一个功能</a>
+            </li>
+            <li>
+                <a href="#">其他</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">分离的链接</a>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-group dropup">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">原始
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <a href="#">功能</a>
+            </li>
+            <li>
+                <a href="#">另一个功能</a>
+            </li>
+            <li>
+                <a href="#">其他</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">分离的链接</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+  </body>
+</html>

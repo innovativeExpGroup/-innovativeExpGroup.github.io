@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap 3.5输入框组</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">创新实验学习</a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav">
+          
+            <li class="active"><a href="/" >主页</a></li>
+          
+            <li class="active"><a href="/blog.html" >博客</a></li>
+          
+            <li class="active"><a href="/staff.html" >员工</a></li>
+          
+            <li class="active"><a href="/about.html" >关于</a></li>
+          
+        </ul>
+    </div>
+    </div>
+</nav>
+    <h1>Bootstrap 3.5输入框组</h1>
+
+<p>
+  09 May 2024
+  
+  
+    - <a href="/authors/k.html">kxy</a>
+  
+</p>
+
+<h1 id="基本的输入框组">基本的输入框组</h1>
+<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="twitterhandle" />
+        </div>
+        <br />
+        <div class="input-group">
+            <input type="text" class="form-control" />
+            <span class="input-group-addon">.00</span>
+        </div>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control" />
+            <span class="input-group-addon">.00</span>
+        </div>
+    </form>
+</div>
+
+<h1 id="输入框组的大小">输入框组的大小</h1>
+<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="input-group input-group-lg">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="Twitterhandle" />
+        </div>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="Twitterhandle" />
+        </div>
+        <br />
+        <div class="input-group input-group-sm">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="Twitterhandle" />
+        </div>
+    </form>
+</div>
+
+<h1 id="复选框和单选插件">复选框和单选插件</h1>
+<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <input type="checkbox" /></span>
+                    <input type="text" class="form-control" />
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+            <br />
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <input type="radio" /></span>
+                    <input type="text" class="form-control" />
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </form>
+</div>
+
+<h1 id="按钮插件">按钮插件</h1>
+<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                    <input type="text" class="form-control" />
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+            <br />
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </form>
+</div>
+
+<h1 id="带有下拉菜单的按钮">带有下拉菜单的按钮</h1>
+<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default 
+                        dropdown-toggle" data-toggle="dropdown">下拉菜单
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">功能</a>
+                            </li>
+                            <li>
+                                <a href="#">另一个功能</a>
+                            </li>
+                            <li>
+                                <a href="#">其他</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">分离的链接</a>
+                            </li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                    <input type="text" class="form-control" />
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+            <br />
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" />
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default 
+                        dropdown-toggle" data-toggle="dropdown">下拉菜单
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu pull-right">
+                            <li>
+                                <a href="#">功能</a>
+                            </li>
+                            <li>
+                                <a href="#">另一个功能</a>
+                            </li>
+                            <li>
+                                <a href="#">其他</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">分离的链接</a>
+                            </li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </form>
+</div>
+
+<h1 id="分割的下拉菜单按钮">分割的下拉菜单按钮</h1>
+<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default" tabindex="-1">下拉菜单</button>
+                        <button type="button" class="btn btn-default 
+                        dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                            <span class="caret"></span>
+                            <span class="sr-only">切换下拉菜单</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">功能</a>
+                            </li>
+                            <li>
+                                <a href="#">另一个功能</a>
+                            </li>
+                            <li>
+                                <a href="#">其他</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">分离的链接</a>
+                            </li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                    <input type="text" class="form-control" />
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+            <br />
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" />
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default" tabindex="-1">下拉菜单</button>
+                        <button type="button" class="btn btn-default 
+                        dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                            <span class="caret"></span>
+                            <span class="sr-only">切换下拉菜单</span>
+                        </button>
+                        <ul class="dropdown-menu pull-right">
+                            <li>
+                                <a href="#">功能</a>
+                            </li>
+                            <li>
+                                <a href="#">另一个功能</a>
+                            </li>
+                            <li>
+                                <a href="#">其他</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">分离的链接</a>
+                            </li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </form>
+</div>
+
+  </body>
+</html>
